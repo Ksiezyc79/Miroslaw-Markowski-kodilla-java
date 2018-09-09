@@ -1,3 +1,6 @@
+**/out/*.*
+**/build/*.*
+### co ma ignorowac Git ###
 .gradle
 /build/
 !gradle/wrapper/gradle-wrapper.jar
