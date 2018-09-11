@@ -1,5 +1,6 @@
 **/out/*.*
 **/build/*.*
+**/*.class
 ### co ma ignorowac Git ###
 .gradle
 /build/
