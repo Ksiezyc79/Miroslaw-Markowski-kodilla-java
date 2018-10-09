@@ -1,6 +1,6 @@
 package com.kodilla.testing.forum;
 
-import com.kodilla.testing.SimpleUser;
+import com.kodilla.testing.shape.SimpleUser;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.*;
