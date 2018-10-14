@@ -2,6 +2,7 @@ package com.kodilla.stream;
 
 
 import com.kodilla.stream.beautifier.PoemBeautifier;
+import com.kodilla.stream.iterate.NumbersGenerator;
 import com.kodilla.stream.lambda.Executor;
 import com.kodilla.stream.lambda.ExpressionExecutor;
 import com.kodilla.stream.lambda.Processor;
@@ -12,7 +13,7 @@ public class StreamMain {
     public static void main(String[] args) {
         System.out.println("Welcome to module 7 - Stream");
 
-        SaySomething saySomething = new SaySomething();
+      /*  SaySomething saySomething = new SaySomething();
         saySomething.say();
 
         Processor processor = new Processor();
@@ -42,5 +43,8 @@ public class StreamMain {
         System.out.println(a);
         String b = poemBeautifier.beautify("upiekszac", (text -> text.replace("u", "U")));
         System.out.println(b);
+        */
+        System.out.println("Using Stream to generate even numbers from 1 to 20");
+        NumbersGenerator.generateEven(20);
     }
 }
