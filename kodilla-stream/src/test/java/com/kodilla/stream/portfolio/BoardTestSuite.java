@@ -138,7 +138,7 @@ public class BoardTestSuite {
         Assert.assertEquals(2, longTasks);
     }
 
-    @Test
+  /*  @Test
     public void testAddTaskListAverageWorkingOnTask(){
         //Given
         Board project = prepareTestData();
@@ -148,5 +148,5 @@ public class BoardTestSuite {
 
         int sumDays = project.getTaskLists().stream()
                 .filter(inProgressTasks::contains)
-                .flatMap(tl -> tl.getTasks().stream())
+                .flatMap(tl -> tl.getTasks().stream())*/
 }

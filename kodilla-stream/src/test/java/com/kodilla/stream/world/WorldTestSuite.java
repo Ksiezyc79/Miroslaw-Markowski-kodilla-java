@@ -18,9 +18,9 @@ public class WorldTestSuite {
         Continent europe = new Continent("Europa");
         Continent australia = new Continent("Australia");
         Continent afryka = new Continent("Afryka");
-        world.addCountryOfTheWorld(europe);
-        world.addCountryOfTheWorld(australia);
-        world.addCountryOfTheWorld(afryka);
+        world.addContinents(europe);
+        world.addContinents(australia);
+        world.addContinents(afryka);
 
         Country country1 = new Country("Polska", new BigDecimal("2000000"));
         Country country2 = new Country("Niemcy", new BigDecimal("3000000"));
